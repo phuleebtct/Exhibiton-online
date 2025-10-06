@@ -2,7 +2,7 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <title>Triển lãm ảnh "80 NĂM - CẦN THƠ TỰ HÀO PHÁT TRIỂN VƯƠN XA"</title>
+  <title>Triển lãm ảnh "CẦN THƠ - ĐỔI MỚI VÀ PHÁT TRIỂN"</title>
 
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
@@ -129,7 +129,7 @@
     <button id="prevPage">⬅️ Trang trước</button>
     <button id="nextPage">Trang sau ➡️</button>
     <button id="toggleAutoFlip">Bật auto lật</button>
-    <input type="number" id="pageInput" min="1" max="80" placeholder="Trang">
+    <input type="number" id="pageInput" min="1" max="82" placeholder="Trang">
     <button id="goToPage">Đi tới trang</button>
     <button id="goToFirstPage">Trang đầu 🏠</button>
   </div>
@@ -143,7 +143,7 @@
 
       // Thêm các trang
       for(let i=1;i<=totalRealPages;i++){
-        $('#flipbook').append(`<div class="page"><img src="images/${i}.jpg"><div class="page-number">${i}</div></div>`);
+        $('#flipbook').append(`<div class="page"><img src="images/${i}.JPG"><div class="page-number">${i}</div></div>`);
       }
       $('#flipbook').append('<div class="page"></div>');
 
@@ -209,3 +209,4 @@
 
 </body>
 </html>
+
